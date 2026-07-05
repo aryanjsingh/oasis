@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+	<displayName />
+	<description />
+	<resources>
+		<stringTable>
+			<string id="Application">Code - OSS</string>
+			<string id="Supported_1_67">Code - OSS &gt;= 1.67</string>
+			<string id="Supported_1_96">Code - OSS &gt;= 1.96</string>
+			<string id="Supported_1_99">Code - OSS &gt;= 1.99</string>
+			<string id="Category_extensionsConfigurationTitle">Extensions</string>
+			<string id="Category_telemetryConfigurationTitle">Telemetry</string>
+			<string id="Category_updateConfigurationTitle">Update</string>
+			<string id="AllowedExtensions">AllowedExtensions</string>
+			<string id="AllowedExtensions_extensions_allowed_policy">Specify a list of extensions that are allowed to use. This helps maintain a secure and consistent development environment by restricting the use of unauthorized extensions. More information: https://code.visualstudio.com/docs/setup/enterprise#_configure-allowed-extensions</string>
+			<string id="ExtensionGalleryServiceUrl">ExtensionGalleryServiceUrl</string>
+			<string id="ExtensionGalleryServiceUrl_extensions_gallery_serviceUrl">Configure the Marketplace service URL to connect to</string>
+			<string id="EnableFeedback">EnableFeedback</string>
+			<string id="EnableFeedback_telemetry_feedback_enabled">Enable feedback mechanisms such as the issue reporter, surveys, and other feedback options.</string>
+			<string id="TelemetryLevel">TelemetryLevel</string>
+			<string id="TelemetryLevel_telemetry_telemetryLevel_policyDescription">Controls the level of telemetry.</string>
+			<string id="TelemetryLevel_telemetry_telemetryLevel_default">Sends usage data, errors, and crash reports.</string>
+			<string id="TelemetryLevel_telemetry_telemetryLevel_error">Sends general error telemetry and crash reports.</string>
+			<string id="TelemetryLevel_telemetry_telemetryLevel_crash">Sends OS level crash reports.</string>
+			<string id="TelemetryLevel_telemetry_telemetryLevel_off">Disables all product telemetry.</string>
+			<string id="UpdateMode">UpdateMode</string>
+			<string id="UpdateMode_updateMode">Configure whether you receive automatic updates. Requires a restart after change. The updates are fetched from a Microsoft online service.</string>
+			<string id="UpdateMode_none">Disable updates.</string>
+			<string id="UpdateMode_manual">Disable automatic background update checks. Updates will be available if you manually check for updates.</string>
+			<string id="UpdateMode_start">Check for updates only on startup. Disable automatic background update checks.</string>
+			<string id="UpdateMode_default">Enable automatic update checks. Code will check for updates automatically and periodically.</string>
+		</stringTable>
+		<presentationTable>
+			<presentation id="AllowedExtensions"><multiTextBox refId="AllowedExtensions" /></presentation>
+			<presentation id="ExtensionGalleryServiceUrl"><textBox refId="ExtensionGalleryServiceUrl"><label>ExtensionGalleryServiceUrl:</label></textBox></presentation>
+			<presentation id="EnableFeedback"><checkBox refId="EnableFeedback">EnableFeedback</checkBox></presentation>
+			<presentation id="TelemetryLevel"><dropdownList refId="TelemetryLevel" /></presentation>
+			<presentation id="UpdateMode"><dropdownList refId="UpdateMode" /></presentation>
+		</presentationTable>
+	</resources>
+</policyDefinitionResources>

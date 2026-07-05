@@ -1,0 +1,126 @@
+{
+  "nameShort": "Oasis",
+  "nameLong": "Oasis",
+  "applicationName": "oasis",
+  "dataFolderName": ".oasis",
+  "sharedDataFolderName": ".oasis-shared",
+  "win32MutexName": "oasis",
+  "licenseName": "MIT",
+  "licenseUrl": "LICENSE.txt",
+  "serverLicenseUrl": "LICENSE.txt",
+  "serverGreeting": [],
+  "serverLicense": [],
+  "serverLicensePrompt": "",
+  "serverApplicationName": "oasis-server",
+  "serverDataFolderName": ".oasis-server",
+  "tunnelApplicationName": "oasis-tunnel",
+  "win32DirName": "Oasis",
+  "win32NameVersion": "Oasis",
+  "win32RegValueName": "Oasis",
+  "win32x64AppId": "{{256E895A-7273-403C-866D-673837E23FC4}",
+  "win32arm64AppId": "{{DFFD914E-CBFC-4863-B419-60FD06AF004C}",
+  "win32x64UserAppId": "{{C0761450-7222-4105-9AA0-817E421BB48C}",
+  "win32arm64UserAppId": "{{D1BFF280-4434-4A02-BAB0-EF99A75A4EA5}",
+  "win32AppUserModelId": "Oasis.Editor",
+  "win32ShellNameShort": "Oasis",
+  "win32TunnelServiceMutex": "oasis-tunnelservice",
+  "win32TunnelMutex": "oasis-tunnel",
+  "darwinBundleIdentifier": "dev.oasis.editor",
+  "darwinProfileUUID": "47827DD9-4734-49A0-AF80-7E19B11495CC",
+  "darwinProfilePayloadUUID": "CF808BE7-53F3-46C6-A7E2-7EDB98A5E959",
+  "linuxIconName": "oasis",
+  "licenseFileName": "LICENSE.txt",
+  "reportIssueUrl": "https://github.com/oasis-editor/oasis/issues/new",
+  "nodejsArtifactFeed": "",
+  "electronArtifactFeed": "",
+  "urlProtocol": "oasis",
+  "builtInExtensions": [],
+  "trustedExtensionAuthAccess": {},
+  "onboardingKeymaps": [
+    {
+      "id": "vscode",
+      "label": "Oasis",
+      "description": "Default keyboard mapping"
+    },
+    {
+      "id": "sublime",
+      "label": "Sublime Text",
+      "extensionId": "ms-vscode.sublime-keybindings",
+      "description": "Keyboard mapping from Sublime Text"
+    },
+    {
+      "id": "intellij",
+      "label": "IntelliJ / JetBrains",
+      "extensionId": "k--kato.intellij-idea-keybindings",
+      "description": "Keyboard mapping from IntelliJ IDEA"
+    },
+    {
+      "id": "vim",
+      "label": "Vim",
+      "extensionId": "vscodevim.vim",
+      "description": "Vim modal editing"
+    },
+    {
+      "id": "eclipse",
+      "label": "Eclipse",
+      "extensionId": "alphabotsec.vscode-eclipse-keybindings",
+      "description": "Keyboard mapping from Eclipse"
+    },
+    {
+      "id": "notepadpp",
+      "label": "Notepad++",
+      "extensionId": "ms-vscode.notepadplusplus-keybindings",
+      "description": "Keyboard mapping from Notepad++"
+    }
+  ],
+  "onboardingThemes": [
+    {
+      "id": "dark-2026",
+      "label": "Dark 2026",
+      "themeId": "Dark 2026",
+      "type": "dark"
+    },
+    {
+      "id": "hc-dark",
+      "label": "Dark High Contrast",
+      "themeId": "Default High Contrast",
+      "type": "hcDark"
+    },
+    {
+      "id": "solarized-dark",
+      "label": "Solarized Dark",
+      "themeId": "Solarized Dark",
+      "type": "dark"
+    },
+    {
+      "id": "light-2026",
+      "label": "Light 2026",
+      "themeId": "Light 2026",
+      "type": "light"
+    },
+    {
+      "id": "hc-light",
+      "label": "Light High Contrast",
+      "themeId": "Default High Contrast Light",
+      "type": "hcLight"
+    },
+    {
+      "id": "solarized-light",
+      "label": "Solarized Light",
+      "themeId": "Solarized Light",
+      "type": "light"
+    }
+  ],
+  "builtInExtensionsEnabledWithAutoUpdates": [],
+  "extensionsGallery": {
+    "serviceUrl": "https://open-vsx.org/vscode/gallery",
+    "itemUrl": "https://open-vsx.org/vscode/item",
+    "latestUrlTemplate": "https://open-vsx.org/vscode/gallery/{publisher}/{name}/latest",
+    "resourceUrlTemplate": "https://open-vsx.org/vscode/unpkg/{publisher}/{name}/{version}/{path}",
+    "controlUrl": "https://raw.githubusercontent.com/EclipseFdn/publish-extensions/refs/heads/master/extension-control/extensions.json"
+  },
+  "linkProtectionTrustedDomains": [
+    "https://open-vsx.org",
+    "https://github.com"
+  ]
+}
