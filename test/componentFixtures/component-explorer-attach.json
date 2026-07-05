@@ -1,0 +1,12 @@
+{
+	"screenshotDir": ".screenshots",
+	"sessions": [
+		{
+			"name": "current"
+		}
+	],
+	"server": {
+		"type": "http",
+		"url": "http://localhost:5123"
+	}
+}

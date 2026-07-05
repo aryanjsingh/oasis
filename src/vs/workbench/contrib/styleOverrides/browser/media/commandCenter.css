@@ -1,0 +1,25 @@
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+/*
+ * Style-override module: "Command Center".
+ *
+ * Keeps the command center on a transparent background at rest and only reveals
+ * the command-center active background/border on hover, instead of carrying a
+ * solid fill the whole time.
+ *
+ * All rules are gated behind the `.style-override` class, which
+ * the StyleOverridesContribution toggles onto the workbench container(s) when
+ * the `workbench.experimental.modernUI` (Modern UI Update) setting is enabled.
+ */
+
+/*
+ * Command center box. Drop the solid `commandCenter-background` fill so it reads
+ * transparent at rest; the base stylesheet's `:hover` rule (titlebarpart.css)
+ * still reveals the active background/border on hover.
+ */
+.style-override.monaco-workbench .part.titlebar > .titlebar-container > .titlebar-center > .window-title > .command-center .action-item.command-center-center {
+	background-color: transparent !important;
+}
